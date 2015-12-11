@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>colResize</artifactId>
-    <version>0.0.10-SNAPSHOT</version>
+    <version>0.0.10</version>
     <name>colResize</name>
     <description>WebJar for colResize</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>https://github.com/webjars/colResize</url>
         <connection>scm:git:https://github.com/webjars/colResize.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/colResize.git</developerConnection>
-        <tag>0.0.10</tag>
+        <tag>colResize-0.0.10</tag>
     </scm>
 
     <dependencies>
@@ -88,7 +88,7 @@
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
                                   <fileset dir="${project.build.directory}/colResize-${upstream.version}">
-                                    <include name="dataTables.colResize.js"/>
+                                    <include name="dataTables.colResize.js" />
                                   </fileset>
                                 </move>
                             </target>
