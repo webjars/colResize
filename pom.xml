@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>colResize</artifactId>
-    <version>0.0.10</version>
+    <version>0.0.11-SNAPSHOT</version>
     <name>colResize</name>
     <description>WebJar for colResize</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>https://github.com/webjars/colResize</url>
         <connection>scm:git:https://github.com/webjars/colResize.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/colResize.git</developerConnection>
-        <tag>colResize-0.0.10</tag>
+        <tag>0.0.10</tag>
     </scm>
 
     <dependencies>
